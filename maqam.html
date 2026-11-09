@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varakkal Maqam | വരക്കൽ മഖാം</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', 'Manjari', sans-serif;
+    background: #f8f8f0;
+    color: #183c2b;
+}
+
+header {
+    background: #064e35;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #e7c66a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e7c66a;
+}
+
+.hero {
+    min-height: 570px;
+    background: linear-gradient(
+        rgba(0,45,29,0.78),
+        rgba(0,45,29,0.78)
+    ), url('images/maqam.jpg');
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero-content h1 {
+    color: #e7c66a;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-content h2 {
+    font-family: 'Manjari', sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #d6b45c;
+    color: #064e35;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+}
+
+section {
+    padding: 75px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-title h2 {
+    color: #08603e;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #777;
+}
+
+.about {
+    text-align: center;
+    line-height: 2;
+    max-width: 850px;
+    margin: auto;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #08603e;
+    margin: 18px 10px 8px;
+}
+
+.card p {
+    padding: 0 15px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.gallery {
+    background: #edf3eb;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.location {
+    text-align: center;
+    line-height: 2;
+}
+
+.location iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+footer {
+    background: #043d2b;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+footer h2 {
+    color: #e7c66a;
+    margin-bottom: 12px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+@media(max-width: 768px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .hero-content h2 {
+        font-size: 27px;
+    }
+
+    section {
+        padding: 50px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☪ VARAKKAL MAQAM</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="1. The Legacy of Varakkal Mullakkoya Thangal
+Life and Scholarly Pursuits: Born in 1840, Varakkal Mullakkoya Thangal was a towering figure in the socio-cultural and spiritual landscape of Malabar during the British colonial era. He was a polyglot proficient in Arabic, Urdu, Persian, and English.
+
+Relation with British Officials & Arakkal Kingdom: He shared a cordial relationship with William Logan, the Collector of Malabar, and assisted British authorities with historical and administrative insights while the famous Malabar Manual was being compiled. He also maintained close ties with the Arakkal royal family of Kannur, often overseeing their official correspondence and diplomatic matters.
+
+Formation of Samastha: In 1926, when Samastha Kerala Jem-iyyathul Ulama was established in Malabar to preserve traditional Sunni orthodox beliefs and guide the community, Thangal was unanimously chosen as its first president. The legendary community leader and statesman, Sayyid Abdurahman Bafaqi Thangal, was his nephew.
+
+2. Origin of the Name "Varakkal"
+During the British era, people traveling from distant places to Puthiyangadi relied on the railway network. The old railway station near present-day West Hill was historically known as "Varakkal". Since visitors arriving from afar would disembark at the Varakkal station to meet the Thangal at Puthiyangadi, he came to be widely known as Varakkal Mullakkoya Thangal, a name that eventually became synonymous with the Maqam itself.
+
+3. Spiritual Significance and Pilgrimage
+Varakkal Mullakkoya Thangal passed away on December 16, 1932 (Sha'ban 17, 1351 AH) at the age of 92, and was laid to rest near his residence and mosque in Puthiyangadi.
+
+Over the decades, his resting place has evolved into a major pilgrimage site (Ziyarat center) visited by hundreds of thousands of believers from across Kerala. Revered across communities as a symbol of communal harmony and spiritual peace, the Maqam continues to be a vibrant center of Islamic scholarship, heritage, and devotion.
+
+
+        <a href="#gallery">Gallery</a>1. വരക്കൽ മുല്ലക്കോയ തങ്ങളുടെ പൈതൃകം   ജീവിതകാലം: 1840-ൽ ജനിച്ച വരക്കൽ മുല്ലക്കോയ തങ്ങൾ, അക്കാലത്തെ മലബാറിലെ സാമൂഹിക, സാംസ്കാരിക, ആത്മീയ മണ്ഡലങ്ങളിൽ നിറഞ്ഞുനിന്ന പ്രമുഖ വ്യക്തിത്വമായിരുന്നു. ബഹുഭാഷാ പണ്ഡിതനായിരുന്ന അദ്ദേഹം, അറബി, ഉറുദു, പേർഷ്യൻ, ഇംഗ്ലീഷ് തുടങ്ങിയ ഭാഷകളിൽ പ്രാവീണ്യം നേടിയിരുന്നു.ബ്രിട്ടീഷ് കാലഘട്ടവും ബന്ധങ്ങളും: മലബാർ കളക്ടറായിരുന്ന വില്യം ലോഗനുമായി സൗഹൃദത്തിലുണ്ടായിരുന്ന തങ്ങൾ, 'മലബാർ മാന്വൽ' തയ്യാറാക്കുന്നതിൽ ബ്രിട്ടീഷ് അധികാരികൾക്ക് ആവശ്യമായ ചരിത്രപരമായ വിവരങ്ങളും പിന്തുണയും നൽകിയിരുന്നു. കൂടാതെ, അറയ്ക്കൽ രാജവംശവുമായി അടുത്ത ബന്ധം പുലർത്തുകയും അവരുടെ ഔദ്യോഗിക കത്തിടപാടുകളും മറ്റും കൈകാര്യം ചെയ്യുകയും ചെയ്തിരുന്നു.സമസ്തയുടെ രൂപീകരണം: 1926-ൽ മലബാറിൽ രൂപംകൊണ്ട സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമയുടെ പ്രഥമ അധ്യക്ഷനായി തിരഞ്ഞെടുക്കപ്പെട്ടത് വരക്കൽ മുല്ലക്കോയ തങ്ങളാണ്. പാരമ്പരാഗത സുന്നി ആശയങ്ങളെ സംരക്ഷിക്കുന്നതിലും സമൂഹത്തിന് നേരായ മാർഗ്ഗം കാണിച്ചുകൊടുക്കുന്നതിലും അദ്ദേഹം വലിയ നേതൃത്വം നൽകി. പ്രശസ്ത സാമൂഹിക പരിഷ്കർത്താവ് സയ്യിദ് അബ്ദുറഹ്മാൻ ബാഫഖി തങ്ങൾ അദ്ദേഹത്തിന്റെ സഹോദരീ പുത്രനാണ്.2. ചരിത്രപരമായ സ്ഥലനാമംബ്രിട്ടീഷ് കാലത്ത് പുതിയങ്ങാടി പ്രദേശത്തേക്ക് ദൂരസ്ഥലങ്ങളിൽ നിന്നും ആളുകൾ എത്തിയിരുന്നത് തീവണ്ടി മാർഗ്ഗമായിരുന്നു. ഇന്നത്തെ വെസ്റ്റ് ഹിൽ റെയിൽവേ സ്റ്റേഷന്റെ പഴയകാല നാമം "വരക്കൽ" എന്നായിരുന്നു. ദൂരെ ദേശങ്ങളിൽ നിന്നെത്തുന്നവർ വരക്കൽ സ്റ്റേഷനിൽ ഇറങ്ങി പുതിയങ്ങാടിയിലുള്ള തങ്ങളുടെ അടുത്തേക്ക് എത്തിയിരുന്നതിനാൽ, അദ്ദേഹം "വരക്കൽ മുല്ലക്കോയ തങ്ങൾ" എന്ന പേരിൽ അറിയപ്പെടാൻ തുടങ്ങി. ആ പേരിലാണ് പിൽക്കാലത്ത് ഈ മഖാമും അറിയപ്പെട്ടത്.3. ആത്മീയ പ്രാധാന്യം1932 ഡിസംബർ 16-ന് (ഹിജ്റ 1351 ശഅബാൻ 17) തന്റെ 92-ാം വയസ്സിൽ തങ്ങൾ വഫാത്താവുകയും (അന്ത്യം സംഭവിക്കുകയും) പുതിയങ്ങാടിയിലെ അദ്ദേഹത്തിന്റെ വസതിക്കും പള്ളിക്കും സമീപം ഖബറടക്കുകയും ചെയ്തു.പിന്നീട് ഈ പ്രദേശം കേരളത്തിലെ ലക്ഷക്കണക്കിന് വിശ്വാസികൾ ആശ്രയിക്കുന്ന ഒരു പ്രധാന സിയാറത്ത് കേന്ദ്രമായി (തീർത്ഥാടന കേന്ദ്രമായി) മാറി. ജാതിമത ഭേദമന്യേ ആളുകൾ ആദരിച്ചിരുന്ന, മത സൗഹാർദ്ദത്തിന്റെ പ്രതീകമായ ഈ മഖാമിലേക്ക് കേരളത്തിന്റെ വിവിധ ഭാഗങ്ങളിൽ നിന്നും നിരവധി ആളുകളാണ് ആത്മീയ ശാന്തി തേടി എത്തിച്ചേരുന്നത്
+        <a href="#location">Location</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+    <div class="hero-content">
+        <h1>VARAKKAL MAQAM</h1>
+        <h2>വരക്കൽ മഖാം</h2>
+
+        <p>
+            A Sacred Heritage of Kozhikode, Kerala
+            <br>
+            കോഴിക്കോടിന്റെ ആത്മീയ പൈതൃകം
+        </p>
+
+        <a href="#about" class="btn">Explore More</a>
+    </div>
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+    <div class="section-title">
+        <h2>About Varakkal Maqam</h2>
+        <p>വരക്കൽ മഖാമിനെക്കുറിച്ച്</p>
+    </div>
+
+    <div class="about">
+        <p>
+            1. സയ്യിദ് വറക്കൽ മുല്ലക്കോയ തങ്ങൾ (Habib Abdurahman Bin Muhammad Ba-Alawi)
+വറക്കൽ മഖാമിന്റെ പ്രധാന സവിശേഷത, കേരളത്തിൽ ഏറെ ആദരിക്കപ്പെടുന്ന ആത്മീയ ഗുരുവും പണ്ഡിതനുമായ സയ്യിദ് വറക്കൽ മുല്ലക്കോയ തങ്ങളുടെ (1840–1932) അന്ത്യവിശ്രമ സ്ഥലമാണിത് എന്നതാണ്.
+
+യെമനിലെ ഹദർമൗത്തിൽ നിന്നും കേരളത്തിലേക്ക് കുടിയേറിയ പ്രശസ്തമായ 'ബഅലവി' (Ba-Alawi) സആദത്ത് കുടുംബപരമ്പരയിൽ പെട്ടയാളാണ് അദ്ദേഹം. കേരളത്തിലെ മുസ്ലിം സമൂഹത്തിന് മതപരമായ മാർഗ്ഗനിർദ്ദേശങ്ങൾ നൽകുന്നതിൽ അദ്ദേഹം വലിയ പങ്കുവഹിച്ചു.
+
+2. സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമയുടെ പിറവി
+കേരളത്തിലെ പരമ്പരാഗത സുന്നി മുസ്ലിംകളുടെ ഏറ്റവും വലിയ സംഘടനയായ സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമ 1926-ൽ രൂപംകൊണ്ടത് വറക്കൽ മുല്ലക്കോയ തങ്ങളുടെ നേതൃത്വത്തിലാണ്. സംഘടനയുടെ പ്രഥമ പ്രസിഡന്റായി അദ്ദേഹം തിരഞ്ഞെടുക്കപ്പെട്ടു.
+
+ബ്രിട്ടീഷ് കാലഘട്ടത്തിലും നവോത്ഥാന പ്രസ്ഥാനങ്ങളുടെയും ആശയപരമായ മാറ്റങ്ങളുടെയും ഇടയിൽ കേരളത്തിലെ പരമ്പരാഗത ഇസ്ലാമിക വിശ്വാസങ്ങളെയും ആചാരങ്ങളെയും സംരക്ഷിക്കുന്നതിൽ സമസ്തയും അതിന്റെ നേതാക്കളും വഹിച്ച പങ്ക് വളരെ വലുതാണ്.
+
+3. മഖാമിന്റെ പ്രാധാന്യവും മറ്റ് പ്രമുഖരും
+മുല്ലക്കോയ തങ്ങൾക്ക് പുറമെ കേരളത്തിലെ മറ്റ് പ്രമുഖ ഇസ്ലാമിക പണ്ഡിതരുടെയും നേതാക്കളുടെയും മൃതദേഹങ്ങൾ ഇവിടെ അടക്കം ചെയ്തിട്ടുണ്ട്. പ്രശസ്ത പണ്ഡിതനായിരുന്ന ശമ്സുൽ ഉലമ ഇ.കെ. അബൂബക്കർ മുസ്ലിയാർ ഉൾപ്പെടെയുള്ളവരുടെ സാന്നിധ്യം ഈ കേന്ദ്രത്തിന്റെ ആത്മീയ പവിത്രത വർദ്ധിപ്പിക്കുന്നു.
+
+കോഴിക്കോട് നഗരത്തിനടുത്തുള്ള വറക്കൽ പ്രദേശത്ത് സ്ഥിതി ചെയ്യുന്ന ഈ മഖാമിലേക്ക് കേരളത്തിന്റെ വിവിധ ഭാഗങ്ങളിൽ നിന്നും നിരവധി ആളുകൾ സന്ദർശനത്തിനും (സിയാറത്ത്) പ്രാർത്ഥനകൾക്കുമായി എത്തിച്ചേരാറുണ്ട്. വർഷാവർഷം നടക്കുന്ന ഉറൂസ് മഹോത്സവം ഇവിടത്തെ പ്രധാനപ്പെട്ട ഒരു ചടങ്ങാണ്.
+
+സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമയുടെ രൂപീകരണത്തെക്കുറിച്ച് കൂടുതൽ അറിയണോ?
+
+Yes.
+        </p>
+
+        <p>
+            Varakkal Maqam is an important spiritual
+            heritage site in Kozhikode, Kerala.
+            This website aims to share its history,
+            heritage, photographs and visitor information.
+        </p>
+    </div>
+</section>
+
+<!-- HISTORY -->
+
+<section id="history" style="background:#edf3eb;">
+
+    <div class="section-title">
+        <h2>History & Heritage</h2>
+        <p>ചരിത്രവും പൈതൃകവും</p>
+    </div>
+
+    <div class="about">
+        <p>
+            വരക്കൽ മഖാമിന്റെ ചരിത്രം, മഹാന്മാരുടെ
+            ജീവിതം, ആത്മീയ സംഭാവനകൾ തുടങ്ങിയ
+            ആധികാരിക വിവരങ്ങൾ ഇവിടെ ചേർക്കാം.
+        </p>
+
+        <p>
+            Discover the spiritual legacy and historical
+            significance of Varakkal Maqam.
+        </p>
+    </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery" class="gallery">
+
+    <div class="section-title">
+        <h2></h2> Gallery</h2>
+        <p>ഫോട്ടോഗാലറി</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="" alt="Varakkal Maqam">
+        <img src="data:image/jpeg;base64,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" alt="Maqam">
+        <img src="https://assets.sirajlive.com/2023/12/img-20231226-wa0028-612x538.jpg" alt="Maqam architecture">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw4cqLg3IcKMnOS4y4wBgWDRZ5ZQH3DOpYUaJiHfx_Fu-bO8Pr8jJmjts&s=10" alt="Maqam surroundings">
+
+    </div>
+
+</section>
+
+<!-- LOCATION -->
+
+<section id="location">
+
+    <div class="section-title">
+        <h2>Find Us</h2>
+        <p>ഞങ്ങളെ സന്ദർശിക്കൂ</p>
+    </div>
+
+    <div class="location">
+
+        <p>
+            Varakkal Maqam, Kozhikode,
+            Kerala, India.
+        </p>
+
+        <iframe
+          src="https://www.google.com/maps?q=Varakkal%20Maqam%20Kozhikode&output=embed"
+          loading="lazy">
+        </iframe>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>VARAKKAL MAQAM</h2>
+
+    <p>വരക്കൽ മഖാം</p>
+
+    <p>
+        Preserving Spiritual Heritage
+        <br>
+        ആത്മീയ പൈതൃകം സംരക്ഷിക്കാം
+    </p>
+
+    <p>© 2026 Varakkal Maqam. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
+
+    
+</body>
+</html>
